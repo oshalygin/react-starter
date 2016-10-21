@@ -6,9 +6,9 @@ Some basic conventions for contributing to this project.
 
 Please make sure that there aren't existing pull requests attempting to address the issue mentioned. Likewise, please check for issues related to update, as someone else may be working on the issue in a branch or fork.
 
-* Non-trivial changes should be discussed in an issue first
 * Develop in a topic branch, not master
 * Squash your commits
+* Rebase with master
 
 ### Linting
 
@@ -26,10 +26,10 @@ Lines should not exceed 100 characters. This allows the message to be easier to 
 
 ```
  #271 feat(standard): add style config and refactor to match
- #270 fix(config): only override publicPath when served by webpack 
- #269 feat(eslint-config-defaults): replace eslint-config-airbnb 
- #268 feat(config): allow user to configure webpack stats output 
-``` 
+ #270 fix(config): only override publicPath when served by webpack
+ #269 feat(eslint-config-defaults): replace eslint-config-airbnb
+ #268 feat(config): allow user to configure webpack stats output
+```
 
 #### Type
 
